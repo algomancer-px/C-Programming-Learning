@@ -2,8 +2,9 @@
 // Prints your name using printf
 
 #include <stdio.h>
-
+#include <conio.h>
 int main() {
     printf("My name is: Asraful Islam.\n");
-    getch();
+    _getch();
+    return 0;
 }
